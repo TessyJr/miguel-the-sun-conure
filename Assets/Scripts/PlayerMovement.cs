@@ -10,14 +10,16 @@ public class PlayerMovement : MonoBehaviour
     public float walkSpeed = 2f;
     public float runSpeed = 4f;
     public float jumpForce = 4f;
-    public float flyForce = 6f; // upward speed while flying
-    public float glideFallSpeed = -2f; // max downward speed while gliding
+    public float flyForce = 6f;
+    public float glideFallSpeed = -2f;
     public float jumpCooldown = 0.25f;
+    public float interactCooldown = 1f;
     public float groundDrag = 5f;
 
     [Header("Input Settings")]
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode runKey = KeyCode.LeftShift;
+    public KeyCode interactKey = KeyCode.F;
 
     [Header("Ground Detection")]
     public float playerHeight = 0.2f;
@@ -33,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isJumping;
     private bool isFlying;
+    private bool isInteracting;
 
     private Vector3 moveDirection;
     private float horizontalInput;
@@ -49,7 +52,10 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        MovePlayer();
+        if (!isInteracting)
+        {
+            MovePlayer();
+        }
 
         if (isFlying)
         {
@@ -66,23 +72,30 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(jumpKey) && readyToJump && isGrounded)
+        // Jump when on the ground
+        if (Input.GetKeyDown(jumpKey) && readyToJump && isGrounded && !isInteracting)
         {
             Jump();
         }
 
         // Enter flying mode when space is held in the air
-        if (Input.GetKey(jumpKey) && !isGrounded)
+        if (Input.GetKey(jumpKey) && !isGrounded && !isInteracting)
         {
             isFlying = true;
             _rb.useGravity = false; // disable gravity while flying
         }
 
         // Stop flying when key is released
-        if (Input.GetKeyUp(jumpKey))
+        if (Input.GetKeyUp(jumpKey) && !isInteracting)
         {
             isFlying = false;
             _rb.useGravity = true; // re-enable gravity when flight ends
+        }
+
+        // Interact when on ground and is not falling nor flying
+        if (Input.GetKeyDown(interactKey) && isGrounded && !isFlying && !isInteracting)
+        {
+            Interact();
         }
     }
 
@@ -119,6 +132,15 @@ public class PlayerMovement : MonoBehaviour
         Invoke(nameof(ResetJump), jumpCooldown);
     }
 
+    private void Interact()
+    {
+        isInteracting = true;
+
+        animator.SetTrigger("Interact");
+
+        Invoke(nameof(ResetInteract), interactCooldown);
+    }
+
     private void FlyUpward()
     {
         // Instead of adding force, directly control vertical velocity
@@ -141,6 +163,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void ResetJump() => readyToJump = true;
+    private void ResetInteract() => isInteracting = false;
 
     private void CheckGround()
     {
