@@ -3,12 +3,16 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("General Settings")]
+    [SerializeField] private Rigidbody _rb;
+
     [Header("Movement Settings")]
     public float walkSpeed = 2f;
     public float runSpeed = 4f;
     public float jumpForce = 4f;
+    public float flyForce = 6f; // upward speed while flying
+    public float glideFallSpeed = -2f; // max downward speed while gliding
     public float jumpCooldown = 0.25f;
-    public float airMultiplier = 0.4f;
     public float groundDrag = 5f;
 
     [Header("Input Settings")]
@@ -25,20 +29,14 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public Transform playerModel;
 
-    private Rigidbody rb;
     private bool readyToJump = true;
     private bool isGrounded;
     private bool isJumping;
-    private Vector3 moveDirection;
+    private bool isFlying;
 
+    private Vector3 moveDirection;
     private float horizontalInput;
     private float verticalInput;
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-        rb.freezeRotation = true;
-    }
 
     void Update()
     {
@@ -52,6 +50,15 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         MovePlayer();
+
+        if (isFlying)
+        {
+            FlyUpward();
+        }
+        else if (!isGrounded) // apply glide
+        {
+            ApplyGlide();
+        }
     }
 
     private void HandleInput()
@@ -63,13 +70,28 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+
+        // Enter flying mode when space is held in the air
+        if (Input.GetKey(jumpKey) && !isGrounded)
+        {
+            isFlying = true;
+            _rb.useGravity = false; // disable gravity while flying
+        }
+
+        // Stop flying when key is released
+        if (Input.GetKeyUp(jumpKey))
+        {
+            isFlying = false;
+            _rb.useGravity = true; // re-enable gravity when flight ends
+        }
     }
 
     private void MovePlayer()
     {
         Vector3 camForward = mainCamera.transform.forward;
         Vector3 camRight = mainCamera.transform.right;
-        camForward.y = 0f; camRight.y = 0f;
+        camForward.y = 0f;
+        camRight.y = 0f;
         camForward.Normalize();
         camRight.Normalize();
 
@@ -77,31 +99,45 @@ public class PlayerMovement : MonoBehaviour
 
         float targetSpeed = Input.GetKey(runKey) ? runSpeed : walkSpeed;
 
-        if (isGrounded)
-        {
-            // Add horizontal velocity instantly
-            Vector3 horizontalVelocity = moveDirection * targetSpeed;
-            Vector3 velocity = new(horizontalVelocity.x, rb.velocity.y, horizontalVelocity.z);
-            rb.velocity = velocity;
-        }
-        else
-        {
-            // Air movement
-            rb.AddForce(moveDirection * targetSpeed * airMultiplier, ForceMode.Force);
-        }
+        // Preserve Y velocity (gravity / flying handles vertical movement)
+        Vector3 horizontalVelocity = moveDirection * targetSpeed;
+        Vector3 velocity = new(horizontalVelocity.x, _rb.velocity.y, horizontalVelocity.z);
+        _rb.velocity = velocity;
     }
 
     private void Jump()
     {
         readyToJump = false;
-        isJumping = true;
 
         // Reset vertical velocity
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        _rb.velocity = new Vector3(_rb.velocity.x, 0f, _rb.velocity.z);
 
-        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+        animator.SetTrigger("Jump"); // one-shot jump anim
 
         Invoke(nameof(ResetJump), jumpCooldown);
+    }
+
+    private void FlyUpward()
+    {
+        // Instead of adding force, directly control vertical velocity
+        Vector3 velocity = _rb.velocity;
+        velocity.y = flyForce;
+        _rb.velocity = velocity;
+
+        animator.SetBool("IsFlying", true);
+    }
+
+    private void ApplyGlide()
+    {
+        // Limit fall speed to glideFallSpeed (less negative = slower fall)
+        if (_rb.velocity.y < glideFallSpeed)
+        {
+            Vector3 velocity = _rb.velocity;
+            velocity.y = glideFallSpeed;
+            _rb.velocity = velocity;
+        }
     }
 
     private void ResetJump() => readyToJump = true;
@@ -113,12 +149,21 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics.CheckSphere(spherePosition, sphereRadius, whatIsGround);
 
         if (isGrounded && isJumping)
+        {
             isJumping = false;
+        }
+
+        // Exit flying state when grounded
+        if (isGrounded)
+        {
+            isFlying = false;
+            _rb.useGravity = true; // restore gravity
+        }
     }
 
     private void ApplyDrag()
     {
-        rb.drag = isGrounded ? groundDrag : 0f;
+        _rb.drag = isGrounded ? groundDrag : 0f;
     }
 
     private void RotatePlayerModel()
@@ -132,17 +177,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        if (!animator) return;
-
         float targetSpeed = moveDirection.magnitude * (Input.GetKey(runKey) ? runSpeed : walkSpeed);
-
-        // Damped speed for smooth transitions
         animator.SetFloat("Speed", targetSpeed, 0.1f, Time.deltaTime);
 
         animator.SetBool("IsGrounded", isGrounded);
-        animator.SetBool("IsJumping", isJumping);
+        animator.SetBool("IsFalling", !isGrounded && _rb.velocity.y < -0.1f && !isFlying);
+        animator.SetBool("IsFlying", isFlying);
     }
-
 
     private void OnDrawGizmos()
     {
