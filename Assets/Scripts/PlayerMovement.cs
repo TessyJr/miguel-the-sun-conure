@@ -32,11 +32,12 @@ public class PlayerMovement : MonoBehaviour
     public Transform playerModel;
 
     private bool readyToJump = true;
-    private bool isGrounded;
-    private bool isJumping;
-    private bool isFlying;
-    private bool isFalling;
-    private bool isInteracting;
+    [SerializeField] private bool isGrounded;
+    [SerializeField] private bool isJumping;
+    [SerializeField] private bool isFlying;
+    [SerializeField] private bool isFalling;
+    [SerializeField] private bool isInteracting;
+    [SerializeField] private bool isMoving;   // ✅ new flag
 
     private Vector3 moveDirection;
     private float horizontalInput;
@@ -72,6 +73,9 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
+        // ✅ Check if player is moving
+        isMoving = horizontalInput != 0 || verticalInput != 0;
+
         // Jump when on the ground
         if (Input.GetKeyDown(jumpKey) && readyToJump && isGrounded && !isInteracting)
         {
@@ -93,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Interact when on ground and is not falling nor flying
-        if (Input.GetKeyDown(interactKey) && isGrounded && !isFlying && !isInteracting)
+        if (Input.GetKeyDown(interactKey) && isGrounded && !isFlying && !isInteracting && !isMoving)
         {
             Interact();
         }
@@ -138,11 +142,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Interact()
     {
-        isInteracting = true;
-
         animator.SetTrigger("Interact");
-
-        Invoke(nameof(ResetInteract), interactCooldown);
     }
 
     private void FlyUpward()
@@ -213,6 +213,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsGrounded", isGrounded);
         animator.SetBool("IsFalling", isFalling);
         animator.SetBool("IsFlying", isFlying);
+
+        // ✅ Send isMoving to animator
+        animator.SetBool("IsMoving", isMoving);
     }
 
     private void OnDrawGizmos()
