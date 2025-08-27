@@ -47,7 +47,6 @@ public class PlayerMovement : MonoBehaviour
         CheckGround();
         RotatePlayerModel();
         UpdateAnimator();
-        ApplyDrag();
     }
 
     void FixedUpdate()
@@ -182,11 +181,6 @@ public class PlayerMovement : MonoBehaviour
             isFlying = false;
             _rb.useGravity = true; // restore gravity
         }
-    }
-
-    private void ApplyDrag()
-    {
-        _rb.drag = isGrounded ? groundDrag : 0f;
     }
 
     private void RotatePlayerModel()
