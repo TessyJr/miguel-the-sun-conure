@@ -55,11 +55,38 @@ public class CameraController : MonoBehaviour
         _thirdPersonCamera.Priority = 0;
         _firstPersonCamera.Priority = 0;
 
+        // Third -> First
+        if (newCam == _firstPersonCamera && oldCam == _thirdPersonCamera)
+        {
+            // Align first-person camera to the player's facing direction
+            _firstPersonCamera.transform.rotation = Quaternion.LookRotation(_playerTransform.forward, Vector3.up);
+
+            // Optional: also tell your FirstPersonCameraController the initial yaw
+            if (_firstPersonCameraController != null)
+            {
+                _firstPersonCameraController.SetYawFromPlayer(_playerTransform.eulerAngles.y);
+            }
+        }
+
+        // First -> Third
+        if (newCam == _thirdPersonCamera && oldCam == _firstPersonCamera)
+        {
+            // Sync to player’s actual facing direction
+            Vector3 forward = _playerTransform.forward;
+            forward.y = 0f;
+            forward.Normalize();
+
+            float targetYaw = Quaternion.LookRotation(forward).eulerAngles.y;
+
+            _thirdPersonCamera.m_XAxis.Value = targetYaw;
+            _thirdPersonCamera.m_YAxis.Value = 0.5f;
+        }
+
         // Raise chosen one
         newCam.Priority = 10;
         _currentCamera = newCam;
 
-        // Enable/disable first-person controller based on camera
+        // Enable/disable first-person controller
         if (_firstPersonCameraController != null)
             _firstPersonCameraController.enabled = (newCam == _firstPersonCamera);
     }

@@ -27,4 +27,12 @@ public class FirstPersonCameraController : MonoBehaviour
             playerBody.rotation = Quaternion.Euler(0f, pov.m_HorizontalAxis.Value, 0f);
         }
     }
+
+    public void SetYawFromPlayer(float yaw)
+    {
+        if (pov != null)
+        {
+            pov.m_HorizontalAxis.Value = yaw;
+        }
+    }
 }
