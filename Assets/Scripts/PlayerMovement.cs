@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isJumping;
     private bool isFlying;
+    private bool isFalling;
     private bool isInteracting;
 
     private Vector3 moveDirection;
@@ -111,6 +112,10 @@ public class PlayerMovement : MonoBehaviour
 
         float targetSpeed = Input.GetKey(runKey) ? runSpeed : walkSpeed;
 
+        // ✅ Double speed if flying or falling
+        if (isFlying || isFalling)
+            targetSpeed *= 2f;
+
         // Preserve Y velocity (gravity / flying handles vertical movement)
         Vector3 horizontalVelocity = moveDirection * targetSpeed;
         Vector3 velocity = new(horizontalVelocity.x, _rb.velocity.y, horizontalVelocity.z);
@@ -181,6 +186,9 @@ public class PlayerMovement : MonoBehaviour
             isFlying = false;
             _rb.useGravity = true; // restore gravity
         }
+
+        // ✅ Falling check (only when not grounded and not flying)
+        isFalling = !isGrounded && !isFlying;
     }
 
     private void RotatePlayerModel()
@@ -195,10 +203,15 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateAnimator()
     {
         float targetSpeed = moveDirection.magnitude * (Input.GetKey(runKey) ? runSpeed : walkSpeed);
+
+        // ✅ Match animator speed boost too
+        if (isFlying || isFalling)
+            targetSpeed *= 2f;
+
         animator.SetFloat("Speed", targetSpeed, 0.1f, Time.deltaTime);
 
         animator.SetBool("IsGrounded", isGrounded);
-        animator.SetBool("IsFalling", !isGrounded && _rb.velocity.y < -0.1f && !isFlying);
+        animator.SetBool("IsFalling", isFalling);
         animator.SetBool("IsFlying", isFlying);
     }
 

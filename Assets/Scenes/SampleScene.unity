@@ -9822,7 +9822,7 @@ MonoBehaviour:
   _thirdPersonCamera: {fileID: 357402612}
   _firstPersonCameraController: {fileID: 330585550}
   _headTarget: {fileID: 0}
-  _playerTransform: {fileID: 0}
+  _playerTransform: {fileID: 446477397}
   heightOffset: 1.8
   forwardOffset: 0.5
 --- !u!114 &330585550
