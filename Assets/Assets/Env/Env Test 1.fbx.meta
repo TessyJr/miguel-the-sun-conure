@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Foliage 1
-    second: {fileID: 2100000, guid: 270850434eea04f8daec82f8cdd32084, type: 2}
+    second: {fileID: 2100000, guid: 736d5cae0490b4409a773284e4583590, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Foliage 2
-    second: {fileID: 2100000, guid: 3370f5b4f7b16465db9fe1cf19c6a2ff, type: 2}
+    second: {fileID: 2100000, guid: a7e58abcd48334f649b36a708dfcb5cc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Foliage 3
-    second: {fileID: 2100000, guid: 8db86f32b521944fb816ac140f981280, type: 2}
+    second: {fileID: 2100000, guid: 72cba32f9c84a4cf3a96bdf8fda958ea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
