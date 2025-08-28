@@ -45,10 +45,10 @@ Material:
     - _AlphaCutoff: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Wind_Speed: 0.32
-    - _Wind_Strength: 0.188
+    - _Wind_Speed: 0.5
+    - _Wind_Strength: 0.098
     m_Colors:
-    - _Leaf_Color: {r: 0.5002397, g: 1, b: 0.38207546, a: 0}
+    - _Leaf_Color: {r: 0.9608104, g: 1, b: 0.25943398, a: 0}
     - _Wind_Direction: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2161294150708525649
