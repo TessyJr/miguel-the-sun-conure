@@ -46,7 +46,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Wind_Speed: 0.3
-    - _Wind_Strength: 0
+    - _Wind_Strength: 0.01
     m_Colors:
     - _Leaf_Color: {r: 0.69835484, g: 0.8773585, b: 0.68284976, a: 0}
     - _Wind_Direction: {r: 0, g: 1, b: 0, a: 0}
