@@ -14,7 +14,6 @@ public class PlayerMovement : MonoBehaviour
     public float glideFallSpeed = -2f;
     public float jumpCooldown = 0.25f;
     public float interactCooldown = 1f;
-    public float groundDrag = 5f;
 
     [Header("Input Settings")]
     public KeyCode jumpKey = KeyCode.Space;
@@ -22,8 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode interactKey = KeyCode.F;
 
     [Header("Ground Detection")]
-    public float playerHeight = 0.2f;
-    public float sphereRadius = 0.1f;
+    public float playerHeight = 1.8f;
+    public float sphereRadius = 0.25f;
     public LayerMask whatIsGround;
 
     [Header("References")]
@@ -31,17 +30,26 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public Transform playerModel;
 
-    private bool readyToJump = true;
+    [SerializeField] private bool readyToJump = true;
     [SerializeField] private bool isGrounded;
     [SerializeField] private bool isJumping;
     [SerializeField] private bool isFlying;
     [SerializeField] private bool isFalling;
     [SerializeField] private bool isInteracting;
-    [SerializeField] private bool isMoving;   // ✅ new flag
+    [SerializeField] private bool isMoving;
 
     private Vector3 moveDirection;
     private float horizontalInput;
     private float verticalInput;
+
+    // queued jump flag (Update → FixedUpdate)
+    private bool jumpQueued;
+
+    void Start()
+    {
+        // keep drag disabled always
+        _rb.drag = 0f;
+    }
 
     void Update()
     {
@@ -56,6 +64,12 @@ public class PlayerMovement : MonoBehaviour
         if (!isInteracting)
         {
             MovePlayer();
+        }
+
+        if (jumpQueued)
+        {
+            DoJump();
+            jumpQueued = false;
         }
 
         if (isFlying)
@@ -73,13 +87,13 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        // ✅ Check if player is moving
+        // Check if player is moving
         isMoving = horizontalInput != 0 || verticalInput != 0;
 
-        // Jump when on the ground
+        // Queue jump
         if (Input.GetKeyDown(jumpKey) && readyToJump && isGrounded && !isInteracting)
         {
-            Jump();
+            jumpQueued = true;
         }
 
         // Enter flying mode when space is held in the air
@@ -116,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
 
         float targetSpeed = Input.GetKey(runKey) ? runSpeed : walkSpeed;
 
-        // ✅ Double speed if flying or falling
+        // Double speed if flying or falling
         if (isFlying || isFalling)
             targetSpeed *= 2f;
 
@@ -126,11 +140,12 @@ public class PlayerMovement : MonoBehaviour
         _rb.velocity = velocity;
     }
 
-    private void Jump()
+    private void DoJump()
     {
         readyToJump = false;
-        _rb.drag = 0f; // disable drag while jumping
+        isJumping = true;
 
+        // reset vertical velocity so small impulses always work
         _rb.velocity = new Vector3(_rb.velocity.x, 0f, _rb.velocity.z);
         _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
 
@@ -138,10 +153,11 @@ public class PlayerMovement : MonoBehaviour
         Invoke(nameof(ResetJump), jumpCooldown);
     }
 
-
     private void Interact()
     {
+        isInteracting = true;
         animator.SetTrigger("Interact");
+        Invoke(nameof(ResetInteract), interactCooldown);
     }
 
     private void FlyUpward()
@@ -170,8 +186,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckGround()
     {
-        Vector3 spherePosition = transform.position + Vector3.down * (playerHeight * 0.5f - sphereRadius);
-
+        // ground check positioned lower + bigger radius
+        Vector3 spherePosition = transform.position + Vector3.down * (playerHeight * 0.5f);
         isGrounded = Physics.CheckSphere(spherePosition, sphereRadius, whatIsGround);
 
         if (isGrounded && isJumping)
@@ -186,7 +202,7 @@ public class PlayerMovement : MonoBehaviour
             _rb.useGravity = true; // restore gravity
         }
 
-        // ✅ Falling check (only when not grounded and not flying)
+        // Falling check (only when not grounded and not flying)
         isFalling = !isGrounded && !isFlying;
     }
 
@@ -203,7 +219,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float targetSpeed = moveDirection.magnitude * (Input.GetKey(runKey) ? runSpeed : walkSpeed);
 
-        // ✅ Match animator speed boost too
+        // Match animator speed boost too
         if (isFlying || isFalling)
             targetSpeed *= 2f;
 
@@ -213,13 +229,13 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsFalling", isFalling);
         animator.SetBool("IsFlying", isFlying);
 
-        // ✅ Send isMoving to animator
+        // Send isMoving to animator
         animator.SetBool("IsMoving", isMoving);
     }
 
     private void OnDrawGizmos()
     {
-        Vector3 spherePosition = transform.position + Vector3.down * (playerHeight * 0.5f - sphereRadius);
+        Vector3 spherePosition = transform.position + Vector3.down * (playerHeight * 0.5f);
         Gizmos.color = isGrounded ? Color.green : Color.red;
         Gizmos.DrawWireSphere(spherePosition, sphereRadius);
     }
