@@ -122,6 +122,1524 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &18443815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 104.54098
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28.95391
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &18443816 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 18443815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &41247610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.62612
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.560127
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 32.39364
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &41247611 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 41247610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &46783315
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 83.200386
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.866363
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.790007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &46783316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 46783315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &60269000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 60269001}
+  m_Layer: 0
+  m_Name: Pohon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &60269001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60269000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 137386009}
+  - {fileID: 717281779}
+  - {fileID: 1338042932}
+  - {fileID: 989274469}
+  - {fileID: 694249077}
+  - {fileID: 849014759}
+  - {fileID: 1089910408}
+  - {fileID: 1669205868}
+  - {fileID: 1469685551}
+  - {fileID: 1818484641}
+  - {fileID: 2023454238}
+  - {fileID: 1365029376}
+  - {fileID: 874638367}
+  - {fileID: 1799350885}
+  - {fileID: 41247611}
+  - {fileID: 1778508599}
+  - {fileID: 1683452632}
+  - {fileID: 1257536251}
+  - {fileID: 1808824734}
+  - {fileID: 603305391}
+  - {fileID: 1563321456}
+  - {fileID: 1214065415}
+  - {fileID: 1539470841}
+  - {fileID: 387790604}
+  - {fileID: 811901011}
+  - {fileID: 100835808}
+  - {fileID: 46783316}
+  - {fileID: 321298203}
+  - {fileID: 1406968205}
+  - {fileID: 635708785}
+  - {fileID: 1174044806}
+  - {fileID: 680335076}
+  - {fileID: 599441039}
+  - {fileID: 1353059082}
+  - {fileID: 1112926703}
+  - {fileID: 1236816027}
+  - {fileID: 430790740}
+  - {fileID: 2008853431}
+  - {fileID: 949382662}
+  - {fileID: 1916034611}
+  - {fileID: 376377857}
+  - {fileID: 660408087}
+  - {fileID: 18443816}
+  - {fileID: 1547112735}
+  - {fileID: 383056640}
+  - {fileID: 2072357208}
+  - {fileID: 1734587792}
+  - {fileID: 251411372}
+  - {fileID: 1325854099}
+  - {fileID: 1487444575}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &100835807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.259999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.259999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 79.56851
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.472504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.041967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &100835808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 100835807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &137386008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 57.908154
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 29.641228
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7051844
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7051845
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.052104834
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.052104827
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.452
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &137386009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 137386008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &251411371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 16.469997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 16.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.62165
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.864956
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.65930766
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.65930784
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.25556475
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.25556472
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -42.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &251411372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 251411371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &321298202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.699999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.700002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.649693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.7095847
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.909235
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6678118
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6678119
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.23243798
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.23243797
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -38.382
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &321298203 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 321298202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &376377856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 109.96923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.152004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &376377857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 376377856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &383056639
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15.820001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15.820001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 98.29735
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 36.217896
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7009069
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.700907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.09343159
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.09343159
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15.186
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &383056640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 383056639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &387790603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.540665
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.4391685
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.135823
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &387790604 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 387790603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &430790739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.801172
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.339928
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &430790740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 430790739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &599441038
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.639999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.639999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 61.42544
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.302079
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.209944
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67507607
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6750762
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.21040969
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.21040967
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 34.623
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &599441039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 599441038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &603305390
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 101.959404
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.334331
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &603305391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 603305390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &635708784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 17.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 17.019999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 17.019999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44.774292
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.19285
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.186374
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &635708785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 635708784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &660408086
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 105.37827
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.319908
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.497093
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &660408087 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 660408086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &680335075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 52.301384
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.593775
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.255665
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &680335076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 680335075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &694249076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.02617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.535553
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &694249077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 694249076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &717281778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 69.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6947266
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6947267
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.13173814
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.13173813
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 21.475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &717281779 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 717281778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &753230913
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,6 +1745,228 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &811901010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 75.97231
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.182636
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.147495
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6913662
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6913663
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14836681
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1483668
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &811901011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 811901010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &849014758
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 72.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.948442
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &849014759 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 849014758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &874638366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 60.25693
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.209218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.248057
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &874638367 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 874638366}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &883993515
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +2016,895 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &949382661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 115.26702
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.58516
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &949382662 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 949382661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &989274468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 54.539352
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.973083
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68127733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.68127745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.18937045
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18937044
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -31.068
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &989274469 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 989274468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1089910407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.480966
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.004333
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1089910408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1089910407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1112926702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.540001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35.79067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.220363
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.472081
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6941474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6941474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.13475682
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.13475682
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -21.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1112926703 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1112926702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1174044805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.699998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.699998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.744728
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.7199864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.64023
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1174044806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1174044805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1214065414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 111.26002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.707327
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &1214065415 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1214065414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1236816026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.119999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.119999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.986717
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.519187
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.996935
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1236816027 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1236816026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1257536250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 110.31203
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 47.28991
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1257536251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1257536250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1325854098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.71709
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.29846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1325854099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1325854098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1338042931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 24.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &1338042932 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1338042931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1353059081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.42915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.222403
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.5135746
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &1353059082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1353059081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1363836946
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +3023,243 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 43.2, y: -44.073, z: 0}
+--- !u!1001 &1365029375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 74.30639
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.166336
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.873167
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1365029376 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1365029375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1406968204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.891388
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.209649
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.063353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1406968205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1406968204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1469685550
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.137981
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.677475
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1469685551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1469685550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1473137701
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,6 +3353,924 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1487444574
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.875309
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.4142
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &1487444575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1487444574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1539470840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 96.91915
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.592297
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.647274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1539470841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1539470840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1547112734
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.98142
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &1547112735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1547112734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1563321455
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 104.18156
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.319374
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1563321456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1563321455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1669205867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.607279
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1669205868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1669205867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1683452631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90.33856
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.268145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1683452632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1683452631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1734587791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.315372
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 56.861443
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149769099306882544, guid: 77ba3f288735e449f984e3c92f1db74c,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 3 Rimbun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77ba3f288735e449f984e3c92f1db74c, type: 3}
+--- !u!4 &1734587792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2377314436214951754, guid: 77ba3f288735e449f984e3c92f1db74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1734587791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1778508598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 80.11496
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.120529
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.212734
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6685646
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.66856474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.23026362
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2302636
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -38.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1778508599 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1778508598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1799350884
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 56.260506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.333281
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.003149
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1799350885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1799350884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1808824733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 108.19535
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.186066
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6965976
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6965977
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1214569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1214569
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 19.781
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &1808824734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1808824733}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1818484640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.310652
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.024227
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.78748
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70484155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70926434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.011932956
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000221225
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -91.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 68.819
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -69.804016
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1818484641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1818484640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1916034610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 112.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.03341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &1916034611 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 1916034610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1941647130
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +4408,154 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1001 &2008853430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 114.09304
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 39.85618
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67972773
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.67972785
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.19485922
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19485924
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -31.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &2008853431 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2008853430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2023454237
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70.101105
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.3801894
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.769632
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209591248562431081, guid: 0924a424aecc0475ba53901e92b938cf,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 1 Rimbun (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0924a424aecc0475ba53901e92b938cf, type: 3}
+--- !u!4 &2023454238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8396076255223250643, guid: 0924a424aecc0475ba53901e92b938cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2023454237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2047042144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -712,6 +4644,95 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f19c971f18c1b4bf695c3f33f9c71007, type: 3}
+--- !u!1001 &2072357207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 60269001}
+    m_Modifications:
+    - target: {fileID: 3840186687227290529, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_Name
+      value: Pohon 2 Rimbun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.557346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 53.290455
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bcddcec804c5848e8b123d1196bc4d83, type: 3}
+--- !u!4 &2072357208 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4467788390744307995, guid: bcddcec804c5848e8b123d1196bc4d83,
+    type: 3}
+  m_PrefabInstance: {fileID: 2072357207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -722,3 +4743,4 @@ SceneRoots:
   - {fileID: 1473137704}
   - {fileID: 2047042144}
   - {fileID: 753230917}
+  - {fileID: 60269001}

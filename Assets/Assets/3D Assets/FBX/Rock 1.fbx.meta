@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 682981f04745045768afe28f57101d82
+guid: 7ba1221c5111f466aafae2a6d27e033c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Pohon_1Mat
-    second: {fileID: 2100000, guid: c37116002ba694e6fb00d13fc765abb2, type: 2}
+      name: Material.027
+    second: {fileID: 2100000, guid: 34b2d9a2d523c45bba92e6a4d60bc47d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
