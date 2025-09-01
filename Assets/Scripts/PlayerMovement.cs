@@ -129,16 +129,15 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         readyToJump = false;
+        _rb.drag = 0f; // disable drag while jumping
 
-        // Reset vertical velocity
         _rb.velocity = new Vector3(_rb.velocity.x, 0f, _rb.velocity.z);
-
         _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
 
-        animator.SetTrigger("Jump"); // one-shot jump anim
-
+        animator.SetTrigger("Jump");
         Invoke(nameof(ResetJump), jumpCooldown);
     }
+
 
     private void Interact()
     {
