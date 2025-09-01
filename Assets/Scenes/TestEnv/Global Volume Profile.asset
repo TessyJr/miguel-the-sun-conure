@@ -83,10 +83,10 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: -10
+    m_Value: -13
   tint:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -2
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,10 +122,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.3
+    m_Value: 0.31
   intensity:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0.77
   scatter:
     m_OverrideState: 1
     m_Value: 0.5
