@@ -11,11 +11,8 @@ public class CameraController : MonoBehaviour
     [Header("Camera Controllers")]
     [SerializeField] private FirstPersonCameraController _firstPersonCameraController;
 
-    [Header("Target Settings")]
-    [SerializeField] private GameObject _headTarget;
+    [Header("Player Settings")]
     [SerializeField] private Transform _playerTransform;
-    [SerializeField] private float heightOffset = 1.8f; // height above player
-    [SerializeField] private float forwardOffset = 0.5f; // forward from player
 
     void Start()
     {
@@ -31,22 +28,6 @@ public class CameraController : MonoBehaviour
             else
                 SetActiveCamera(_firstPersonCamera, _thirdPersonCamera);
         }
-    }
-
-    void LateUpdate()
-    {
-        if (_playerTransform == null || _headTarget == null || _currentCamera == null) return;
-
-        // Base position: above the player
-        Vector3 basePosition = _playerTransform.position + Vector3.up * heightOffset;
-
-        // Forward offset based on current camera forward
-        Vector3 cameraForward = _currentCamera.transform.forward;
-        cameraForward.y = 0f; // ignore vertical tilt
-        cameraForward.Normalize();
-
-        Vector3 targetPosition = basePosition + cameraForward * forwardOffset;
-        _headTarget.transform.position = targetPosition;
     }
 
     private void SetActiveCamera(CinemachineVirtualCameraBase newCam, CinemachineVirtualCameraBase oldCam = null)
