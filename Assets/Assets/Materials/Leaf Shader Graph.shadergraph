@@ -146,6 +146,9 @@
         },
         {
             "m_Id": "228f9b61239b494b8edb1662b2b4d4d6"
+        },
+        {
+            "m_Id": "6b79b61f9d1345998cb64af9daf591d4"
         }
     ],
     "m_GroupDatas": [
@@ -662,6 +665,9 @@
             },
             {
                 "m_Id": "228f9b61239b494b8edb1662b2b4d4d6"
+            },
+            {
+                "m_Id": "6b79b61f9d1345998cb64af9daf591d4"
             }
         ]
     },
@@ -778,6 +784,36 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
+    "m_ObjectId": "05ef6e8121934047890ecd57e53d6047",
+    "m_Id": 0,
+    "m_DisplayName": "Specular Color",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Specular",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_ColorMode": 0,
+    "m_DefaultColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
     }
 }
 
@@ -965,7 +1001,7 @@
     "m_ObjectId": "0b2728feb5e84751944479cdf9ec7d44",
     "m_Title": "UV Offset",
     "m_Position": {
-        "x": -2833.499755859375,
+        "x": -2833.49951171875,
         "y": -1250.4998779296875
     }
 }
@@ -2022,7 +2058,7 @@
     "m_ActiveSubTarget": {
         "m_Id": "c2b3921dfb8d41c1a96f05d4009f0316"
     },
-    "m_AllowMaterialOverride": false,
+    "m_AllowMaterialOverride": true,
     "m_SurfaceType": 0,
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
@@ -2619,11 +2655,45 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "6b79b61f9d1345998cb64af9daf591d4",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.Specular",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "05ef6e8121934047890ecd57e53d6047"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.Specular"
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "6bf76c84dbdb444f9291fc6d0922d728",
     "m_Title": "Vertex Animations",
     "m_Position": {
-        "x": -731.5,
+        "x": -731.4996948242188,
         "y": -1453.4998779296875
     }
 }
@@ -3993,8 +4063,8 @@
     "m_ObjectId": "d382a7e05369497ba949caf0b5273887",
     "m_Title": "Color",
     "m_Position": {
-        "x": -732.0,
-        "y": -584.4999389648438
+        "x": -731.999755859375,
+        "y": -584.4998779296875
     }
 }
 
@@ -4476,7 +4546,7 @@
     "m_Title": "UV Animations",
     "m_Position": {
         "x": -1647.999755859375,
-        "y": -802.9998168945313
+        "y": -802.9998779296875
     }
 }
 
