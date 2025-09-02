@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera mainCamera;
     public Animator animator;
     public Transform playerModel;
+    public CameraController _cameraController;
 
     [Header("Status")]
     [SerializeField] private bool isSad = false;
@@ -44,12 +45,10 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
 
-    // queued jump flag (Update → FixedUpdate)
     private bool jumpQueued;
 
     void Start()
     {
-        // keep drag disabled always
         _rb.drag = 0f;
     }
 
@@ -137,17 +136,14 @@ public class PlayerMovement : MonoBehaviour
 
         float targetSpeed = Input.GetKey(runKey) && !isSad ? runSpeed : walkSpeed;
 
-        // Double speed if flying or falling
         if (isFlying || isFalling)
             targetSpeed *= 2f;
 
         if (isSad)
             targetSpeed /= 2;
 
-        // Preserve Y velocity (gravity / flying handles vertical movement)
-        Vector3 horizontalVelocity = moveDirection * targetSpeed;
-        Vector3 velocity = new(horizontalVelocity.x, _rb.velocity.y, horizontalVelocity.z);
-        _rb.velocity = velocity;
+        Vector3 move = moveDirection * targetSpeed * Time.fixedDeltaTime;
+        _rb.MovePosition(_rb.position + move);
     }
 
     private void DoJump()
@@ -157,7 +153,14 @@ public class PlayerMovement : MonoBehaviour
 
         // reset vertical velocity so small impulses always work
         _rb.velocity = new Vector3(_rb.velocity.x, 0f, _rb.velocity.z);
-        _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+        float appliedJumpForce = jumpForce;
+
+        // reduce jump if already airborne
+        if (isFlying || isFalling)
+            appliedJumpForce *= 0.5f; // 50% power, tweak as needed
+
+        _rb.AddForce(Vector3.up * appliedJumpForce, ForceMode.Impulse);
 
         animator.SetTrigger("Jump");
         Invoke(nameof(ResetJump), jumpCooldown);

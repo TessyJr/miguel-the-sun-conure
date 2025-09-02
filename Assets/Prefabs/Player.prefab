@@ -82,10 +82,10 @@ MonoBehaviour:
   flyForce: 8
   glideFallSpeed: -4
   jumpCooldown: 0.25
-  interactCooldown: 5
   jumpKey: 32
   runKey: 304
   interactKey: 102
+  sadKey: 112
   playerHeight: 2
   sphereRadius: 0.2
   whatIsGround:
@@ -94,6 +94,8 @@ MonoBehaviour:
   mainCamera: {fileID: 0}
   animator: {fileID: 0}
   playerModel: {fileID: 3093390883525087929}
+  _cameraController: {fileID: 0}
+  isSad: 0
   readyToJump: 1
   isGrounded: 0
   isJumping: 0
