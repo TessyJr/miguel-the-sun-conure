@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode runKey = KeyCode.LeftShift;
     public KeyCode interactKey = KeyCode.F;
+    public KeyCode sadKey = KeyCode.P;
 
     [Header("Ground Detection")]
     public float playerHeight = 1.8f;
@@ -30,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public Transform playerModel;
 
+    [Header("Status")]
+    [SerializeField] private bool isSad = false;
     [SerializeField] private bool readyToJump = true;
     [SerializeField] private bool isGrounded;
     [SerializeField] private bool isJumping;
@@ -115,6 +118,12 @@ public class PlayerMovement : MonoBehaviour
         {
             Interact();
         }
+
+        if (Input.GetKeyDown(sadKey))
+        {
+            isSad = !isSad;
+            animator.SetBool("IsSad", isSad);
+        }
     }
 
     private void MovePlayer()
@@ -128,11 +137,14 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = (camForward * verticalInput + camRight * horizontalInput).normalized;
 
-        float targetSpeed = Input.GetKey(runKey) ? runSpeed : walkSpeed;
+        float targetSpeed = Input.GetKey(runKey) && !isSad ? runSpeed : walkSpeed;
 
         // Double speed if flying or falling
         if (isFlying || isFalling)
             targetSpeed *= 2f;
+
+        if (isSad)
+            targetSpeed /= 2;
 
         // Preserve Y velocity (gravity / flying handles vertical movement)
         Vector3 horizontalVelocity = moveDirection * targetSpeed;
