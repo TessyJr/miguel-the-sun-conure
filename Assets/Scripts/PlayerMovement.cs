@@ -349,8 +349,8 @@ public class PlayerMovement : MonoBehaviour
         colorAdjustments.hueShift.value = 0f;
         colorAdjustments.saturation.value = 0f;
 
-        whiteBalance.temperature.value = 0f;
-        whiteBalance.tint.value = 0f;
+        whiteBalance.temperature.value = -5;
+        whiteBalance.tint.value = -30;
 
         RenderSettings.skybox = _daySkybox;
         DynamicGI.UpdateEnvironment();
