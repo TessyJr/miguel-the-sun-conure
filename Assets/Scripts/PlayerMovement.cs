@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
@@ -32,6 +34,16 @@ public class PlayerMovement : MonoBehaviour
     public CameraController _cameraController;
     [SerializeField] private GameObject _npcInRange;
 
+    [Header("Skybox Settings")]
+    [SerializeField] private Light directionalLight;  // Drag your Directional Light here
+    [SerializeField] private Volume globalVolume;
+    [SerializeField] private Material _daySkybox;
+    [SerializeField] private Material _nightSkybox;
+    private Color dayColor;
+    private Color nightColor;
+    private WhiteBalance whiteBalance;
+    private ColorAdjustments colorAdjustments;
+
     [Header("Status")]
     [SerializeField] private bool isSad = false;
     [SerializeField] private bool readyToJump = true;
@@ -48,9 +60,41 @@ public class PlayerMovement : MonoBehaviour
 
     private bool jumpQueued;
 
+    private void Awake()
+    {
+        // Convert hex to Unity Color
+        ColorUtility.TryParseHtmlString("#FFF7CB", out dayColor);   // soft yellow daylight
+        ColorUtility.TryParseHtmlString("#CBD4FF", out nightColor); // soft bluish night
+    }
+
     void Start()
     {
         _rb.drag = 0f;
+
+        if (globalVolume != null && globalVolume.profile != null)
+        {
+            // Color Adjustments
+            if (globalVolume.profile.TryGet(out ColorAdjustments adjustments))
+            {
+                colorAdjustments = adjustments;
+            }
+            else
+            {
+                Debug.LogWarning("No Color Adjustments override found on the Volume!");
+            }
+
+            // White Balance
+            if (globalVolume.profile.TryGet(out WhiteBalance wb))
+            {
+                whiteBalance = wb;
+            }
+            else
+            {
+                Debug.LogWarning("No White Balance override found on the Volume!");
+            }
+        }
+
+        ApplyDaySettings();
     }
 
     void Update()
@@ -115,10 +159,20 @@ public class PlayerMovement : MonoBehaviour
             Interact();
         }
 
+        // Toggle Sad Mode (Night/Day switch)
         if (Input.GetKeyDown(sadKey))
         {
             isSad = !isSad;
             animator.SetBool("IsSad", isSad);
+
+            if (isSad)
+            {
+                ApplyNightSettings();
+            }
+            else
+            {
+                ApplyDaySettings();
+            }
         }
     }
 
@@ -199,7 +253,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FlyUpward()
     {
-        // Instead of adding force, directly control vertical velocity
         Vector3 velocity = _rb.velocity;
         velocity.y = flyForce;
         _rb.velocity = velocity;
@@ -209,7 +262,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyGlide()
     {
-        // Limit fall speed to glideFallSpeed (less negative = slower fall)
         if (_rb.velocity.y < glideFallSpeed)
         {
             Vector3 velocity = _rb.velocity;
@@ -222,7 +274,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckGround()
     {
-        // ground check positioned lower + bigger radius
         Vector3 spherePosition = transform.position + Vector3.down * (playerHeight * 0.5f);
         isGrounded = Physics.CheckSphere(spherePosition, sphereRadius, whatIsGround);
 
@@ -231,14 +282,12 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
         }
 
-        // Exit flying state when grounded
         if (isGrounded)
         {
             isFlying = false;
             _rb.useGravity = true;
         }
 
-        // Falling check (only when not grounded and not flying)
         isFalling = !isGrounded && !isFlying;
     }
 
@@ -255,7 +304,6 @@ public class PlayerMovement : MonoBehaviour
     {
         float targetSpeed = moveDirection.magnitude * (Input.GetKey(runKey) ? runSpeed : walkSpeed);
 
-        // Match animator speed boost too
         if (isFlying || isFalling)
             targetSpeed *= 2f;
 
@@ -264,8 +312,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsGrounded", isGrounded);
         animator.SetBool("IsFalling", isFalling);
         animator.SetBool("IsFlying", isFlying);
-
-        // Send isMoving to animator
         animator.SetBool("IsMoving", isMoving);
     }
 
@@ -292,5 +338,36 @@ public class PlayerMovement : MonoBehaviour
             _npcInRange = null;
             Debug.Log("Exited NPC range: " + other.name);
         }
+    }
+
+    // === Helper Methods for Day/Night ===
+    private void ApplyDaySettings()
+    {
+        directionalLight.color = dayColor;
+        directionalLight.intensity = 1f;
+
+        colorAdjustments.hueShift.value = 0f;
+        colorAdjustments.saturation.value = 0f;
+
+        whiteBalance.temperature.value = 0f;
+        whiteBalance.tint.value = 0f;
+
+        RenderSettings.skybox = _daySkybox;
+        DynamicGI.UpdateEnvironment();
+    }
+
+    private void ApplyNightSettings()
+    {
+        directionalLight.color = nightColor;
+        directionalLight.intensity = 1.6f;
+
+        colorAdjustments.hueShift.value = -6f;
+        colorAdjustments.saturation.value = 12f;
+
+        whiteBalance.temperature.value = -52f;
+        whiteBalance.tint.value = -11f;
+
+        RenderSettings.skybox = _nightSkybox;
+        DynamicGI.UpdateEnvironment();
     }
 }
