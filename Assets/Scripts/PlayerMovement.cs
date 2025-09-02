@@ -13,7 +13,6 @@ public class PlayerMovement : MonoBehaviour
     public float flyForce = 6f;
     public float glideFallSpeed = -2f;
     public float jumpCooldown = 0.25f;
-    public float interactCooldown = 1f;
 
     [Header("Input Settings")]
     public KeyCode jumpKey = KeyCode.Space;
@@ -64,10 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!isInteracting)
-        {
-            MovePlayer();
-        }
+        MovePlayer();
 
         if (jumpQueued)
         {
@@ -128,6 +124,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
+        isInteracting = false;
+
         Vector3 camForward = mainCamera.transform.forward;
         Vector3 camRight = mainCamera.transform.right;
         camForward.y = 0f;
@@ -169,7 +167,6 @@ public class PlayerMovement : MonoBehaviour
     {
         isInteracting = true;
         animator.SetTrigger("Interact");
-        Invoke(nameof(ResetInteract), interactCooldown);
     }
 
     private void FlyUpward()
@@ -194,7 +191,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void ResetJump() => readyToJump = true;
-    private void ResetInteract() => isInteracting = false;
 
     private void CheckGround()
     {
