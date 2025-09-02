@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera mainCamera;
     public Animator animator;
     public Transform playerModel;
+    public CameraController _cameraController;
 
     [Header("Status")]
     [SerializeField] private bool isSad = false;
@@ -44,12 +45,10 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
 
-    // queued jump flag (Update → FixedUpdate)
     private bool jumpQueued;
 
     void Start()
     {
-        // keep drag disabled always
         _rb.drag = 0f;
     }
 
