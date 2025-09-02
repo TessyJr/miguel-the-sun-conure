@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public Transform playerModel;
     public CameraController _cameraController;
+    [SerializeField] private GameObject _npcInRange;
 
     [Header("Status")]
     [SerializeField] private bool isSad = false;
@@ -170,6 +171,30 @@ public class PlayerMovement : MonoBehaviour
     {
         isInteracting = true;
         animator.SetTrigger("Interact");
+
+        if (_npcInRange != null)
+        {
+            // Rotate NPC to face player
+            Vector3 npcDirection = (transform.position - _npcInRange.transform.position).normalized;
+            npcDirection.y = 0f; // keep only horizontal rotation
+            if (npcDirection != Vector3.zero)
+            {
+                Quaternion npcLookRotation = Quaternion.LookRotation(npcDirection);
+                _npcInRange.transform.rotation = npcLookRotation;
+            }
+
+            // Rotate Player to face NPC
+            Vector3 playerDirection = (_npcInRange.transform.position - transform.position).normalized;
+            playerDirection.y = 0f; // keep only horizontal rotation
+            if (playerDirection != Vector3.zero)
+            {
+                Quaternion playerLookRotation = Quaternion.LookRotation(playerDirection);
+                transform.rotation = playerLookRotation;
+            }
+
+            // Cut Scene
+            _cameraController.InteractCutScene(_npcInRange);
+        }
     }
 
     private void FlyUpward()
@@ -210,7 +235,7 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded)
         {
             isFlying = false;
-            _rb.useGravity = true; // restore gravity
+            _rb.useGravity = true;
         }
 
         // Falling check (only when not grounded and not flying)
@@ -222,8 +247,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveDirection.sqrMagnitude > 0.01f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            // playerModel.rotation = Quaternion.Slerp(playerModel.rotation, targetRotation, Time.deltaTime * 32f);
-            playerModel.rotation = targetRotation; // instant snap
+            playerModel.rotation = targetRotation;
         }
     }
 
@@ -250,5 +274,23 @@ public class PlayerMovement : MonoBehaviour
         Vector3 spherePosition = transform.position + Vector3.down * (playerHeight * 0.5f);
         Gizmos.color = isGrounded ? Color.green : Color.red;
         Gizmos.DrawWireSphere(spherePosition, sphereRadius);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("NPC"))
+        {
+            _npcInRange = other.gameObject;
+            Debug.Log("Entered NPC range: " + other.name);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("NPC") && _npcInRange == other.gameObject)
+        {
+            _npcInRange = null;
+            Debug.Log("Exited NPC range: " + other.name);
+        }
     }
 }

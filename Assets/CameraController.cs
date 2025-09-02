@@ -1,5 +1,6 @@
 using UnityEngine;
 using Cinemachine;
+using System.Collections;
 
 public class CameraController : MonoBehaviour
 {
@@ -7,7 +8,11 @@ public class CameraController : MonoBehaviour
     [SerializeField] private CinemachineVirtualCamera _firstPersonCamera;
     [SerializeField] private CinemachineFreeLook _thirdPersonCamera;
     [SerializeField] private CinemachineFreeLook _closeUpCamera;
+    [SerializeField] private CinemachineVirtualCamera _interactCamera;
+
     private CinemachineVirtualCameraBase _currentCamera;
+    private CinemachineVirtualCameraBase[] _cameras;
+    private int _cameraIndex = 0;
 
     [Header("Camera Controllers")]
     [SerializeField] private FirstPersonCameraController _firstPersonCameraController;
@@ -15,12 +20,10 @@ public class CameraController : MonoBehaviour
     [Header("Target Settings")]
     [SerializeField] private Transform _playerTransform;
 
-    private CinemachineVirtualCameraBase[] _cameras;
-    private int _cameraIndex = 0;
+    private Coroutine _interactRoutine;
 
     void Start()
     {
-        // Put cameras into an array for cycling
         _cameras = new CinemachineVirtualCameraBase[]
         {
             _thirdPersonCamera,
@@ -28,7 +31,6 @@ public class CameraController : MonoBehaviour
             _closeUpCamera
         };
 
-        // Start with third person
         _cameraIndex = 0;
         SetActiveCamera(_cameras[_cameraIndex]);
     }
@@ -37,20 +39,17 @@ public class CameraController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            // Cycle index
             _cameraIndex = (_cameraIndex + 1) % _cameras.Length;
-
-            // Set new camera
             SetActiveCamera(_cameras[_cameraIndex], _currentCamera);
         }
     }
 
     private void SetActiveCamera(CinemachineVirtualCameraBase newCam, CinemachineVirtualCameraBase oldCam = null)
     {
-        // Reset priorities
         _thirdPersonCamera.Priority = 0;
         _firstPersonCamera.Priority = 0;
         _closeUpCamera.Priority = 0;
+        _interactCamera.Priority = 0;
 
         // Third -> First
         if (newCam == _firstPersonCamera && oldCam == _thirdPersonCamera)
@@ -78,5 +77,44 @@ public class CameraController : MonoBehaviour
 
         if (_firstPersonCameraController != null)
             _firstPersonCameraController.enabled = (newCam == _firstPersonCamera);
+    }
+
+    public void InteractCutScene(GameObject npc)
+    {
+        if (_interactRoutine != null)
+            StopCoroutine(_interactRoutine);
+
+        _interactRoutine = StartCoroutine(DoInteractCamera(npc));
+    }
+
+    private IEnumerator DoInteractCamera(GameObject npc)
+    {
+        var previousCamera = _currentCamera;
+        SetActiveCamera(_interactCamera, _currentCamera);
+
+        // Get the interact camera's transform
+        Transform camTransform = _interactCamera.transform;
+
+        // Step 1: place in front of player, look at player
+        Vector3 playerPos = _playerTransform.position;
+        Vector3 playerForward = _playerTransform.forward;
+        camTransform.position = playerPos + playerForward * 0.5f + Vector3.up * 0.1f; // move forward & lift a bit;// move forward & lift a bit
+        camTransform.LookAt(playerPos);
+        yield return new WaitForSeconds(4f);
+
+        // Step 2: place in front of NPC, look at NPC
+        Transform npcTransform = npc.transform;
+        Vector3 npcPos = npcTransform.position;
+        Vector3 npcForward = npcTransform.forward;
+        camTransform.position = npcPos + npcForward * 0.2f + Vector3.up * 0.1f; ; // move forward & lift a bit
+        camTransform.LookAt(npcPos);
+
+        // Step 3: Move NPC
+        NPCController npcController = npc.GetComponent<NPCController>();
+        npcController.Interact();
+        yield return new WaitForSeconds(2f);
+
+        // Step 4: return to previous camera
+        SetActiveCamera(previousCamera, _interactCamera);
     }
 }
