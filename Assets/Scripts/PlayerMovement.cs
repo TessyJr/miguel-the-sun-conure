@@ -69,6 +69,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        Screen.SetResolution(1920, 1080, FullScreenMode.FullScreenWindow);
+
+        Application.targetFrameRate = 30; // lock to 60 FPS
+        QualitySettings.vSyncCount = 0;   // disable VSync so frame rate limit works
+
         _rb.drag = 0f;
 
         if (globalVolume != null && globalVolume.profile != null)
