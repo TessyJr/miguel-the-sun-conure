@@ -322,7 +322,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveDirection.sqrMagnitude > 0.01f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            transform.rotation = targetRotation; // rotate the root
+            transform.rotation = targetRotation; // <-- rotates root object
         }
     }
 
