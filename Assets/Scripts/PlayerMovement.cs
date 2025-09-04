@@ -197,8 +197,20 @@ public class PlayerMovement : MonoBehaviour
         if (isSad)
             targetSpeed /= 2;
 
-        Vector3 move = moveDirection * targetSpeed * Time.fixedDeltaTime;
-        _rb.MovePosition(_rb.position + move);
+        // === FIX: Different handling for flying vs walking ===
+        if (isFlying)
+        {
+            // Use velocity when flying
+            Vector3 velocity = moveDirection * targetSpeed;
+            velocity.y = flyForce; // keep upward motion
+            _rb.velocity = velocity;
+        }
+        else
+        {
+            // Use MovePosition when grounded / walking
+            Vector3 move = moveDirection * targetSpeed * Time.fixedDeltaTime;
+            _rb.MovePosition(_rb.position + move);
+        }
     }
 
     private void DoJump()
@@ -243,7 +255,7 @@ public class PlayerMovement : MonoBehaviour
             if (playerDirection != Vector3.zero)
             {
                 Quaternion playerLookRotation = Quaternion.LookRotation(playerDirection);
-                transform.rotation = playerLookRotation;
+                playerModel.rotation = playerLookRotation; // <-- rotate the model
             }
 
             // Cut Scene
@@ -296,7 +308,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveDirection.sqrMagnitude > 0.01f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            playerModel.rotation = targetRotation;
+            transform.rotation = targetRotation; // rotate the root
         }
     }
 
