@@ -101,13 +101,13 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleInput();
         CheckGround();
-        RotatePlayerModel();
         UpdateAnimator();
     }
 
     void FixedUpdate()
     {
         MovePlayer();
+        RotatePlayerModel();
 
         if (jumpQueued)
         {
@@ -317,14 +317,24 @@ public class PlayerMovement : MonoBehaviour
         isFalling = !isGrounded && !isFlying;
     }
 
+    // private void RotatePlayerModel()
+    // {
+    //     if (moveDirection.sqrMagnitude > 0.01f)
+    //     {
+    //         Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+    //         transform.rotation = targetRotation; // <-- rotates root object
+    //     }
+    // }
+
     private void RotatePlayerModel()
     {
         if (moveDirection.sqrMagnitude > 0.01f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-            transform.rotation = targetRotation; // <-- rotates root object
+            playerModel.rotation = targetRotation; // instant rotation, no smoothing
         }
     }
+
 
     private void UpdateAnimator()
     {
