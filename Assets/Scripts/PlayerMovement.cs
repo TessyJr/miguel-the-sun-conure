@@ -145,12 +145,16 @@ public class PlayerMovement : MonoBehaviour
             isFlying = true;
             _rb.useGravity = false; // disable gravity while flying
         }
-
-        // Stop flying when key is released
-        if (Input.GetKeyUp(jumpKey) && !isInteracting)
+        else
         {
-            isFlying = false;
-            _rb.useGravity = true; // re-enable gravity when flight ends
+            // Stop flying when key is released or other conditions not met
+            if (isFlying)
+            {
+                isFlying = false;
+                _rb.useGravity = true; // re-enable gravity when flight ends
+                                       // Reset horizontal velocity to prevent drifting
+                _rb.velocity = new Vector3(0f, _rb.velocity.y, 0f);
+            }
         }
 
         // Interact when on ground and is not falling nor flying
@@ -202,7 +206,12 @@ public class PlayerMovement : MonoBehaviour
         {
             // Use velocity when flying
             Vector3 velocity = moveDirection * targetSpeed;
-            velocity.y = flyForce; // keep upward motion
+            velocity.y = _rb.velocity.y; // Preserve vertical velocity (handled in FlyUpward)
+            if (moveDirection.sqrMagnitude < 0.01f) // Check if no movement input
+            {
+                velocity.x = 0f; // Reset horizontal velocity
+                velocity.z = 0f;
+            }
             _rb.velocity = velocity;
         }
         else
@@ -211,6 +220,20 @@ public class PlayerMovement : MonoBehaviour
             Vector3 move = moveDirection * targetSpeed * Time.fixedDeltaTime;
             _rb.MovePosition(_rb.position + move);
         }
+    }
+
+    private void FlyUpward()
+    {
+        Vector3 velocity = _rb.velocity;
+        velocity.y = flyForce; // Apply upward force
+        if (moveDirection.sqrMagnitude < 0.01f) // Check if no movement input
+        {
+            velocity.x = 0f; // Reset horizontal velocity
+            velocity.z = 0f;
+        }
+        _rb.velocity = velocity;
+
+        animator.SetBool("IsFlying", true);
     }
 
     private void DoJump()
@@ -261,15 +284,6 @@ public class PlayerMovement : MonoBehaviour
             // Cut Scene
             _cameraController.InteractCutScene(_npcInRange);
         }
-    }
-
-    private void FlyUpward()
-    {
-        Vector3 velocity = _rb.velocity;
-        velocity.y = flyForce;
-        _rb.velocity = velocity;
-
-        animator.SetBool("IsFlying", true);
     }
 
     private void ApplyGlide()
